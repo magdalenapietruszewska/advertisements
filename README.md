@@ -12,7 +12,7 @@ To run the application locally:
    git clone https://github.com/magdalenapietruszewska/advertisements.git
 ```
 2. **Install dependencies:**
-  * cd repository-name
+  * cd advertisements
    * npm install
    
 3. **Run the application locally:**
