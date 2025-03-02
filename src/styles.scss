@@ -1,0 +1,13 @@
+@import "styles/base/reset";
+@import "styles/base/variables";
+@import "styles/pages/start";
+@import "styles/pages/nothing";
+@import "styles/pages/home";
+@import "styles/pages/adForm";
+@import "styles/pages/addAd";
+
+body,
+html {
+  height: 100%;
+  font-size: 16px;
+}

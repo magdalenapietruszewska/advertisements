@@ -1,0 +1,15 @@
+@import "../base/variables";
+
+.nothing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: $padding;
+
+  &__info {
+    color: $primary-color;
+    max-width: 38rem;
+  }
+}

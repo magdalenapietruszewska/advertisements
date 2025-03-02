@@ -1,0 +1,24 @@
+@import "../base/variables";
+
+.ad-form {
+  display: flex;
+  flex-direction: column;
+  gap: $padding;
+  margin: 0 auto;
+  max-width: 38rem;
+  width: 100%;
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: $margin-bottom;
+  }
+
+  &__input {
+    margin-top: 0.3125rem;
+  }
+
+  &__submit {
+    margin-top: $padding;
+  }
+}

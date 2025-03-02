@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "The Worker You Wanted!",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "startDate": "2025-06-01",
+    "endDate": "2025-06-30"
+  },
+  {
+    "id": "2",
+    "name": "Work Hard, Play Hard – Join Our Team!",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",
+    "startDate": "2025-03-01",
+    "endDate": "2025-03-21"
+  },
+  {
+    "id": "3",
+    "name": "Looking for Great People – And We Found You!",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",
+    "startDate": "2025-04-05",
+    "endDate": "2025-04-23"
+  },
+  {
+    "id": "4",
+    "name": "New Office, New Deals – Time to Celebrate Your New Gig!",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.",
+    "startDate": "2025-06-01",
+    "endDate": "2025-06-30"
+  }
+]

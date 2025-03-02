@@ -1,0 +1,93 @@
+@import "../base/variables";
+
+.ads-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 2.5rem;
+  padding: $padding;
+  max-width: 75rem;
+  margin: 0 auto;
+
+  &__left,
+  &__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title.h {
+    margin-bottom: $padding;
+    text-align: center;
+  }
+
+  &__item {
+    margin-bottom: $padding;
+    padding: $padding;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+
+  &__item-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: $margin-bottom;
+  }
+
+  &__item-content {
+    font-size: 1rem;
+    margin-bottom: $margin-bottom;
+  }
+
+  &__item-dates {
+    font-size: 0.875rem;
+    color: #777;
+    margin-bottom: $margin-bottom;
+
+    span {
+      display: block;
+    }
+  }
+
+  &__item-actions {
+    display: flex;
+    gap: $margin-bottom;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1.875rem;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 38rem;
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 2.5rem;
+    align-items: start;
+    justify-content: center;
+
+    &__left,
+    &__right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &__buttons {
+      flex-direction: row;
+      gap: $margin-bottom;
+    }
+  }
+}
