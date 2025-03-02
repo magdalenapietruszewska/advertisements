@@ -19,7 +19,5 @@ To run the application locally:
   * npm start
 
 
-Click here: https://magdalenapietruszewska.github.io/advertisments/
-
 
    
