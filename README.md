@@ -8,15 +8,15 @@ A **React**, **TypeScript**, **Sass**, and **Material UI** based application for
 To run the application locally:
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YourUsername/repository-name.git
+  * ```bash
+  * git clone https://github.com/YourUsername/repository-name.git
 
 2. **Install dependencies:**
-   cd repository-name
-   npm install
+  * cd repository-name
+   * npm install
    
 3. **Run the application locally:**
-   npm start
+  * npm start
 
 
 Click here: https://magdalenapietruszewska.github.io/advertisments/
