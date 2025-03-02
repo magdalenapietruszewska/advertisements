@@ -8,7 +8,7 @@ A **React**, **TypeScript**, **Sass**, and **Material UI** based application for
 To run the application locally:
 
 1. **Clone the repository:**
-  * ```bash
+```bash
    git clone https://github.com/YourUsername/repository-name.git
 
 2. **Install dependencies:**
